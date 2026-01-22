@@ -1,0 +1,21 @@
+[2026-01-22 19:09:22,774] 14 root - INFO -initiating data ingestion
+[2026-01-22 19:09:22,775] 76 root - INFO -ENTERED initiate_data_ingestion function
+[2026-01-22 19:09:22,775] 26 root - INFO -ENTERED export_collection_as_df function
+[2026-01-22 19:09:28,096] 35 root - INFO -EXITING export_collection_as_df function
+[2026-01-22 19:09:28,096] 42 root - INFO -ENTERED export_data_to_feature_store function
+[2026-01-22 19:09:28,157] 47 root - INFO -EXITING export_data_to_feature_store function
+[2026-01-22 19:09:28,157] 54 root - INFO -ENTERED split_data_to_train_test function
+[2026-01-22 19:09:28,163] 58 root - INFO -completed train test split
+[2026-01-22 19:09:28,164] 61 root - INFO -exporting train test file path
+[2026-01-22 19:09:28,227] 68 root - INFO -exported train and test file
+[2026-01-22 19:09:28,227] 69 root - INFO -exiting split_data_to_train_test function
+[2026-01-22 19:09:28,228] 16 root - INFO -data validation initiated
+[2026-01-22 19:09:28,391] 33 root - INFO -required numbe of column: 2
+[2026-01-22 19:09:28,391] 34 root - INFO -data frame has column: 32
+[2026-01-22 19:09:28,391] 33 root - INFO -required numbe of column: 2
+[2026-01-22 19:09:28,391] 34 root - INFO -data frame has column: 32
+[2026-01-22 19:09:28,567] 20 root - INFO -data validation completed
+[2026-01-22 19:09:28,567] 43 root - INFO -initiating data transformation...
+[2026-01-22 19:09:28,567] 25 root - INFO -reading data...
+[2026-01-22 19:09:28,583] 25 root - INFO -reading data...
+[2026-01-22 19:09:28,593] 31 root - INFO -entered get_data_transformer_object

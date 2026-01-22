@@ -18,9 +18,19 @@ SCHEMA_FILE_PATH=os.path.join("data_schema","schema.yaml")
 
 TRAIN_FILE_NAME:str="train.csv"
 TEST_FILE_NAME:str='test.csv'
+PREPROCESSING_OBJECT_FILE_NAME:str="preprocessor.pkl"
 
 DATA_VALIDATION_DIR_NAME:str="data_validation"
 DATA_VALIDATION_VALID_DIR_NAME:str="valid"
 DATA_VALIDATION_INVALID_DIR_NAME:str="invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR_NAME:str="drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yml"
+
+DATA_TRANSFORMATION_DIR_NAME:str="data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR_NAME:str="transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR_NAME:str="transformed_object"
+DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
+    "missing_values": np.nan,
+    "n_neighbors":3,
+    "weights":"uniform"
+}
