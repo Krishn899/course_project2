@@ -14,6 +14,13 @@ TARGET_COLUMN="Result"
 PIPELINE_NAME:str="NetworkSecurity"
 ARTIFACT_DIR:str="Artifacts"
 FILE_NAME:str="uci-ml-phishing-dataset.csv"
+SCHEMA_FILE_PATH=os.path.join("data_schema","schema.yaml")
 
 TRAIN_FILE_NAME:str="train.csv"
 TEST_FILE_NAME:str='test.csv'
+
+DATA_VALIDATION_DIR_NAME:str="data_validation"
+DATA_VALIDATION_VALID_DIR_NAME:str="valid"
+DATA_VALIDATION_INVALID_DIR_NAME:str="invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR_NAME:str="drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yml"
