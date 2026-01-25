@@ -16,6 +16,8 @@ from sklearn.ensemble import AdaBoostClassifier,GradientBoostingClassifier,Rando
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import r2_score
 
+import dagshub
+dagshub.init(repo_owner='Krishn899', repo_name='course_project2', mlflow=True)
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
